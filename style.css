@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mtb{
+    margin-top: 20px;
+}
+body{
+    background: linear-gradient(90deg,#a8c2ee,#f9c2eb);
+    width: 80%;
+    margin : auto;
+}
+.header{
+    color: #000;
+    text-align: center;
+    font-size: 50px;
+    margin: 40px;
+}
+hr{
+    color: #000
+}
+.input-country{
+    text-align: center;
+}
+.input-country form{
+    right: auto;
+}
+.country {
+    margin: 26px 25px;
+    width: 29%;
+    outline: none;
+    border: none;
+    background: none;
+    appearance: none;
+    background-color: #e6f0ff;
+    padding: 15px;
+    border-radius: 13px;
+    box-shadow: 2px 7px 8px grey;
+}
+.city{
+    margin: 26px 25px;
+    width: 29%;
+    outline: none;
+    border: none;
+    background: none;
+    appearance: none;
+    background-color: #e6f0ff;
+    padding: 15px;
+    border-radius: 13px;
+    box-shadow: 2px 7px 8px grey;
+}
+.btn{
+    margin: 0;
+    width: 102px;
+    height: 40px;
+    box-shadow: 2px 7px 8px grey;
+    color: black;
+    transition: 0.5s;
+    font-size: 19px;
+    border-radius: 12px;
+    background: linear-gradient(90deg,#a8c2ee,#f9c2eb);
+    opacity: 1;
+}
+.btn:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.showCountry{
+    text-align: left;
+    font-size: 36px;
+    margin: 10px;
+    color: black;
+}
+.showCity{
+    text-align: left;
+    font-size: 36px;
+    margin: 10px;
+    color: black;
+}
+.info{
+    text-align: left;
+    font-size: 36px;
+    color: rgb(17, 15, 15);
+}
